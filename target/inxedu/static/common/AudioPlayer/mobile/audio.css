@@ -1,0 +1,37 @@
+@charset "utf-8";
+/*
+	westdrug | 2015(yy)/12(mm)/11(dd) 
+	http://www.inxedu.com
+*/
+.ado-box {background: #333 url(ucHeadBg-3.jpg) no-repeat 50% 0;background-size: cover;height: 240px;position: relative;}
+.ado-cover {height: 190px;overflow: hidden;}
+.ado-cover-pic {height: 140px;}
+.ado-cover-wrap {width: 132px;height: 132px;margin: 12px auto 0;position: relative;text-align: center;overflow: hidden;}
+.ado-cover-wrap .ado-c-img {display: block;width:277px;height: 132px;position: absolute;left: 50%;top: 0px;margin-left: -138px;z-index: 3;}
+.ado-cover-wrap .coures-zhao{display: block;width:214px;height: 240px;position: absolute;z-index: 5;top:-24px;left:-41px;background: url("coures-zhao-1.png") no-repeat top left;}
+.ado-cover-wrap.ado-rotate .ado-c-img {-webkit-animation:9.5s linear 0s normal none infinite rotate;animation: 9.5s linear 0s normal none infinite rotate;}
+#buffer {background: url(ado-loading.gif) no-repeat 50% 50%;position: absolute;width: 32px;height: 32px;top: 50%;left: 50%;margin: -16px 0 0 -16px;}
+.ado-cover-name h6 {height: 26px;line-height: 26px;text-align: center;font-size: 0.9rem;color: #fff;}
+.ado-audio-wrap {background: rgba(0,0,0,.2);height: 50px;padding: 0 75px 0 50px;position: relative;overflow: hidden;}
+.btn-playorpause {background: url(ado-play.png) no-repeat;background-size: 100% 100%;display: block;text-indent: -999px;position: absolute;left: 10px;top: 7px;width: 36px;height: 36px;}
+.btn-playorpause.adoStop {background-image: url(ado-stop.png);}
+.stick-wrap,.stick-bar {border-radius: 20px;height: 5px;line-height: 5px;font-size: 0;}
+.stick-wrap {background: #fff;margin: 24px 10px 0;position: relative;}
+.stick-bar {background: #66ccff;width: 0;}
+.ado-time-wrap {position: absolute;right: 8px;top: 18px;line-height: 16px;color: #fff;font-size: .6rem;}
+@-webkit-keyframes rotate {
+	from{-webkit-transform: rotate(0deg) translateZ(0px);transform: rotate(0deg) translateZ(0px)}
+	to{-webkit-transform: rotate(360deg) translateZ(0px);transform: rotate(360deg) translateZ(0px)}
+}
+@-moz-keyframes rotate {
+	from{-moz-transform: rotate(0deg) translateZ(0px);transform: rotate(0deg) translateZ(0px)}
+	to{-moz-transform: rotate(360deg) translateZ(0px);transform: rotate(360deg) translateZ(0px)}
+}
+@-ms-keyframes rotate {
+	from{-ms-transform: rotate(0deg) translateZ(0px);transform: rotate(0deg);translateZ(0px)}
+	to{-ms-transform: rotate(360deg) translateZ(0px);transform: rotate(360deg);translateZ(0px)}
+}
+@keyframes rotate {
+	from{transform: rotate(0deg);translateZ(0px)}
+	to{transform: rotate(360deg);translateZ(0px)}
+}
