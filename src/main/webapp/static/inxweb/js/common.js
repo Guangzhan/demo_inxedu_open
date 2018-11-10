@@ -1,7 +1,8 @@
 //温馨提示弹框
+/*
 var tipNew = function () {
     $(".new-tips-close").bind("click", function() {$(".tip-new-warp").remove();});
-}
+}*/
 //移动端导航显示与隐藏
 var wmNavFun = function() {
     var wmBtn = $(".mw-nav-btn"),
