@@ -91,7 +91,7 @@ public class WebFrontController extends BaseController {
 					model.addAttribute("websiteImagesList", websiteImagesList);
 				}
 			}else{
-				changeColor(request,"orange");
+				changeColor(request,"green");
 				List<WebsiteImages> websiteImagesList = websiteImages.get("type_1");
 				model.addAttribute("websiteImagesList", websiteImagesList);
 			}
@@ -197,11 +197,12 @@ public class WebFrontController extends BaseController {
     }
     
     public void changeColor(HttpServletRequest request,String colorfalg){
-    	String color="#ea562e";
+    	// String color="#ea562e";
+    	String color="68cb9b";
     	if (colorfalg.equals("blue")) {
     		color="#009ed9";
-		}else if (colorfalg.equals("green")) {
-    		color="#68cb9b";
+		}else if (colorfalg.equals("orange")) {
+    		color="#ea562e";
 		}
     	
     	//放入缓存

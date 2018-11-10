@@ -38,13 +38,7 @@
 <body class="W-body">
 	<div class="in-wrap" >
 		<div class="changeTheme" style="display: none;">
-			<div class="ei-item-box">
-				<div class="container pr">
-					<a class="fr" id="Replacement" href="javascript:void(0);">
-						<img alt="" src="/static/inxweb/img/HF-BG.png">
-					</a>
-				</div>
-			</div>
+
 			<div class="ei-i-dialog pa" style="height: 120px; top: -120px; opacity: 0; z-index: -1;">
 				<div style="height: 100%;" class="ei-i-dialog-box">
 					<div class="ei-i-dialog-box-tit">
